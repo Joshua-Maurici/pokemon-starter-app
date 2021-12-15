@@ -28,15 +28,15 @@ class Questions
     # Chooses next question based on answer given from question 6
     # IF FIRE
     def question_7a
-        puts "Placeholder text 7a"
+        puts "Choose an Ability"
     end
     # IF WATER
     def question_7b
-        puts "Placeholder text 7b"
+        puts "Choose an Ability"
     end
     # IF GRASS
     def question_7c
-        puts "Placeholder text 7c"
+        puts "Choose an Ability"
     end
 
 end

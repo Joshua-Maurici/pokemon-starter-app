@@ -1,24 +1,24 @@
 # Regions & Pokemon
 
 ## Kanto 
-    Bulbasaur
     Charmander
     Squirtle
+    Bulbasaur
 
 ## Johto
-    Chikorita
     Cyndaquill
     Totodile
+    Chikorita
 
 ## Hoenn
-    Treecko
     Torchic
     Mudkip
+    Treecko
 
-## Sinnoh
-    Turtwif
+<!-- ## Sinnoh
     Chimchar
-    Piplup
+    Piplup 
+    Turtwif-->
 
 
 # QUESTIONS
@@ -48,9 +48,23 @@
         Water
         Grass
 
-## 7a. If FIRE - 
-## 7b. If WATER - 
-## 7c. If GRASS - 
+## 7a. If FIRE - Choose an Ability
+        a. Solar Power
+        b. Flash Fire
+        c. Speed Boost
+  
+
+        <!-- Bipedal, reptilian, orange body and blue eyes. 
+        Small, bipedal, long snout with bluish and cream-coloured fur.
+        Small chick, tiny wing and orange feathers. -->
+## 7b. If WATER - Choose an Ability
+        a. Rain Dish
+        b. Sheer Force
+        c. Damp
+## 7c. If GRASS - Choose an Ability
+        a. Chlorophyll
+        b. Leaf Guard
+        c. Unburden
 
 
 

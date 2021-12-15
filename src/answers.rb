@@ -24,4 +24,16 @@ class Answers
         ["a. ""Fire", "b. ""Water", "c. ""Grass"]
     end
 
+    def answer_7a
+        ["a. Solar Power", "b. ""Flash Fire", "c. ""Speed Boost"]
+    end
+
+    def answer_7b
+        ["a. ""Rain Dish", "b. ""Sheer Force", "c. ""Damp"]
+    end
+
+    def answer_7c
+        ["a. ""Chlorophyll", "b. ""Leaf Guard", "c. ""Unburden"]
+    end
+
 end
