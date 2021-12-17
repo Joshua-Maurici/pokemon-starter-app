@@ -215,6 +215,9 @@ def quiz
               puts answer.answer_7c
             end
         end
+
+        system("clear")
+
     end   
 end
 
