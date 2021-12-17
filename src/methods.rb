@@ -7,14 +7,14 @@
 
 # end
 
-def my_favourite_pokemon(name)
-    if name == "Arcanine"
-        puts "You have found the developers favourite pokemon ARCANINE!".colorize(:yellow)
-    elsif name == "Zapdos"
-        puts "KAAAWWW!!!!! you've found one of the legendary birds!".colorize(:light_yellow)
-    elsif name == "Articuno"
-        puts "KAAAWWW!!!!! you've found one of the legendary birds!".colorize(:cyan)
-    elsif name == "Moltress"
-        puts "KAAAWWW!!!!! you've found one of the legendary birds!".colorize(:red)
-    end
-end
+# def my_favourite_pokemon(name)
+#     if name == "Arcanine"
+#         puts "You have found the developers favourite pokemon ARCANINE!".colorize(:yellow)
+#     elsif name == "Zapdos"
+#         puts "KAAAWWW!!!!! you've found one of the legendary birds!".colorize(:light_yellow)
+#     elsif name == "Articuno"
+#         puts "KAAAWWW!!!!! you've found one of the legendary birds!".colorize(:cyan)
+#     elsif name == "Moltress"
+#         puts "KAAAWWW!!!!! you've found one of the legendary birds!".colorize(:red)
+#     end
+# end

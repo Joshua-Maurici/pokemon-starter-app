@@ -1,6 +1,6 @@
 # GEMS
 require 'colorize'
-require 'tty-prompt'
+# require 'tty-prompt'
 
 # FILES
 require_relative './quiz.rb'
