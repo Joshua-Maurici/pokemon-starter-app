@@ -32,7 +32,7 @@ case user_input
         puts "Thank you for playing."
         exit
     when 2
-        puts File.read("../README.md")
+        puts File.read("./README.md")
         
     when 3
         puts "Goodbye Trainer!".colorize(:red)
@@ -42,7 +42,19 @@ case user_input
     end
 end
 
-
+    if ARGV.length > 0
+        flag, *rest = ARGV
+        ARGV.clear
+        case flag
+        when '-help'
+            puts File.read("./README.md")
+            exit
+        when '-info'
+            puts "This program is running ruby #{RUBY_VERSION}"
+        else 
+            puts "Invalid argument, please see README for options"
+        end
+    end 
     
 
     
