@@ -38,7 +38,7 @@ case user_input
         puts "Goodbye Trainer!".colorize(:red)
         exit
     else 
-        puts "Please choose an option".red.on_light_white
+        puts "Wrong input. Please choose 1, 2 or 3 ONLY!!".red.on_light_white
     end
 end
 
