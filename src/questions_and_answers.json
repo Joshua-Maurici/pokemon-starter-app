@@ -10,7 +10,15 @@
     },
 
     {
-        "answers": "a, b, c"
+       "answer_1": ["a. The Ocean", "b. The Rainforest", "c. Inside a Volcano"], 
+       "answer_2": ["a. Avoid it", "b. Jump in it", "c. Glace at your reflection in the puddle"],
+       "answer_3": ["a. Why is that even a question? Me of course!", "b. I'll let them go first, because I'm such a nice person.", "c. I am too indecisive."],
+       "answer_4": ["a. Yes", "b. No", "c. Only when I need to"],
+       "answer_5": ["a. Eat it", "b. Water it", "c. Leave it alone" ],
+       "answer_6": ["a. Fire", "b. Water", "c. Grass"],
+       "answer_7a": ["a. Solar Power", "b. Flash Fire", "c. Speed Boost" ],
+       "answer_7b": ["a. Rain Dish", "b. Sheer Force", "c. Damp"],
+       "answer_7c": ["a. Chlorophyll", "b. Leaf Guard", "c. Unburden"]
     }
 ]
 

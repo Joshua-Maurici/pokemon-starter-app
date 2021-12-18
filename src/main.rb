@@ -6,6 +6,19 @@ require 'colorize'
 require_relative './quiz.rb'
 require_relative './methods.rb'
 
+if ARGV.length > 0
+    flag, *rest = ARGV
+    ARGV.clear
+    case flag
+    when '-help'
+        puts File.read("./README.md")
+        exit
+    when '-info'
+        puts "This program is running ruby #{RUBY_VERSION}"
+    else 
+        puts "Invalid argument, please see README for options"
+    end
+end 
 
 puts "Please tell me your name?"
 user_name = gets.chomp.capitalize.colorize(:cyan)
@@ -40,21 +53,9 @@ case user_input
     else 
         puts "Wrong input. Please choose 1, 2 or 3 ONLY!!".red.on_light_white
     end
+    
 end
 
-    if ARGV.length > 0
-        flag, *rest = ARGV
-        ARGV.clear
-        case flag
-        when '-help'
-            puts File.read("./README.md")
-            exit
-        when '-info'
-            puts "This program is running ruby #{RUBY_VERSION}"
-        else 
-            puts "Invalid argument, please see README for options"
-        end
-    end 
     
 
     
